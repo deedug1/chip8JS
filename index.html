@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chip8JS</title>
+  </head>
+  <body>
+    <div class="container">
+      <canvas class="screen" id="main-screen"></canvas>
+      <input class="controls" type="file" id="fileinput"/>
+      <input class="controls" type="button" value="Load" onclick="start()"/>
+      <input class="controls" type="range" min="0" max="1000" value="50" class="slider" id="period-range">
+    </div>
+  </body>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="src/types.js"></script>
+  <script src="src/chip8instructions.js"></script>
+  <script src="src/chip8characters.js"></script>
+  <script src="src/chip8input.js"></script>
+  <script src="src/chip8display.js"></script>
+  <script src="src/chip8cpu.js"></script>
+  <script src="main.js"></script>
+</html>

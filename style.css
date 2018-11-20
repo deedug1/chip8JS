@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+.screen {
+  display: block;
+  border: blue 2px solid;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.controls {
+  position: relative;
+  top: 0;
+  left: 0;
+}
